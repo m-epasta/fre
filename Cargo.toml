@@ -1,0 +1,16 @@
+[package]
+name = "rust-fre"
+version = "0.1.0"
+edition = "2024"
+description = "Fast Rotating Encoding - a self-rotating keyed PRF encoding"
+authors = ["m-epasta <mepastacc@gmail.com>"]
+license = "MIT OR Apache-2.0"
+include = ["src/", "examples/", "README.md"]
+repository = "github.com/m-epasta/fre"
+
+[dependencies]
+hmac = "0.12"
+sha2 = "0.10"
+
+[dev-dependencies]
+hex = "0.4"
