@@ -6,7 +6,7 @@ description = "Fast Rotating Encoding - a self-rotating keyed PRF encoding"
 authors = ["m-epasta <mepastacc@gmail.com>"]
 license = "MIT OR Apache-2.0"
 include = ["src/", "examples/", "README.md"]
-repository = "github.com/m-epasta/fre"
+repository = "https://github.com/m-epasta/fre"
 
 [dependencies]
 hmac = "0.12"
